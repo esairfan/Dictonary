@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #9df4e7;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #9df4e7;
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.search button:hover {
+    background-color: #4aa8d8;
+}
+
+.answer {
+    margin-top: 20px;
+}
+
+.word h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.meaning .partofspeech p {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.meaning .mean p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    font-weight: 500;
+}
